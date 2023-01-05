@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  cqrsapi:
+    image: cqrsapimediatr
+    build:
+      context: .
+      dockerfile: CqrsApi/Dockerfile

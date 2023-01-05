@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cqrsapi:
+    hostname: "cqrs.api.mediatr"
+    container_name: "cqrs.api.mediatr"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
